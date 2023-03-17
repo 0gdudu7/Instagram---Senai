@@ -1,0 +1,147 @@
+.menu{
+    font-family: 'open_sansregular';
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #dd17ae;
+  }
+  .menu .item{
+      display: block;
+      list-style: none;
+      margin: 0 15px 0;
+      padding: 10px 0;
+      border-bottom: 1px #2e66af solid;
+  }
+  .menu .item:last-child {
+      border-bottom:0;
+  }
+  .item a{
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .item a:hover{
+   
+    color: #3d00c0;
+  }
+  /*768PX BREAKPOINT*/
+  @media (min-width:48em){
+     .menu { padding: 15px; } 
+     .menu .item {
+          display: inline;
+          padding: 10px 0;
+          border-bottom: 0;
+      }
+  } 
+
+
+
+
+
+  .profile-card{
+
+    width:100%;
+    max-width: 360px;
+    height: auto;
+    text-align: center;
+    margin:auto;
+    box-shadow: 0px 0px 8px rgba(56, 56, 56, 0.1);
+
+}
+
+.profile-card .profile-header{
+
+    min-height: 88px;
+
+}
+
+.profile-card .profile-body{
+
+    background-color: #ffffff;
+    padding: 20px 40px 40px 40px;
+
+}
+
+.profile-card .profile-body .img-perfil{
+
+    margin-top: -85px;
+    margin-bottom: 20px;
+
+}
+
+.profile-card .profile-body .img-perfil img{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    padding: 3px;
+    background-color: #ededed;
+
+}
+
+.profile-card .profile-body .titulo{
+   
+   font-size: 30px;
+   color: #007cff;
+}
+
+.profile-card .profile-body .descricao{
+
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.6;
+   margin: 20px  0px 30px  0px;
+
+}
+
+.redes-sociais ul {
+
+    list-style-type: none;
+
+}
+
+.redes-sociais ul li {
+
+    display: inline-block;
+
+}
+
+.redes-sociais ul li a {
+  
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  border:1px solid #ddd;
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.5s ease-out;
+ 
+}
+ 
+.redes-sociais ul{
+ 
+  margin:0;
+  padding:0;
+ 
+}
+ 
+.redes-sociais ul li a:hover {
+ 
+  background-color: #007cff;
+  border:1px solid #007cff;
+ 
+}
+  
+.redes-sociais ul li a i{
+ 
+   line-height: 40px;
+   color:#666;
+ 
+}
+  
+.redes-sociais ul li a i:hover,
+.redes-sociais ul li a:hover i{
+ 
+   color:#ffffff;
+  
+}
